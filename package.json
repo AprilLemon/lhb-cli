@@ -1,0 +1,28 @@
+{
+  "name": "@aprilemon/lhb-cli",
+  "version": "1.0.3",
+  "type": "module",
+  "bin": {
+    "lhb-cli": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "vite",
+    "vue3",
+    "web"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.2.19",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {},
+  "description": "脚手架，含uni-app开发和web开发多套模板"
+}
